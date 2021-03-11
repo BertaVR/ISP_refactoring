@@ -1,4 +1,4 @@
-package org.formacion.isp;
+package edu.pingpong;
 
 import static org.junit.Assert.*;
 
@@ -10,7 +10,7 @@ public class TestProcesadorTexto {
 	@Test
 	public void test_simple() {
 		
-		ProcesadorTexto procesador = new ProcesadorTexto();
+		ProcesadorBasico procesador = new ProcesadorBasico();
 		
 		procesador.nueva("No");
 		procesador.nueva("himporta");
@@ -23,7 +23,7 @@ public class TestProcesadorTexto {
 	@Test
 	public void test_con_idioma() {
 		
-		ProcesadorTexto procesador = new ProcesadorTexto();
+		ProcesadorComplejo procesador = new ProcesadorComplejo();
 		
 		procesador.nueva("Tengo");
 		procesador.nueva("hambre");

@@ -1,4 +1,4 @@
-package org.formacion.isp;
+package edu.pingpong;
 
 import java.util.Arrays;
 import java.util.List;
